@@ -1,0 +1,7 @@
+{
+  "version": "1.0.0",
+  "target_asin_count": 20,
+  "selection": "approved_high_relevance_then_sales_desc",
+  "family_policy": "one_representative",
+  "automatic_semantic_scoring": false
+}

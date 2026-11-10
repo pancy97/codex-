@@ -1,0 +1,7 @@
+﻿asin,site,category_id,period,source,metric,keyword,search_volume,relevance,term_type,review_status,reviewer,evidence
+B0DEMO0001,US,YOGA-MATS,2026-10,xiyou,monthly_search_volume,yoga mat,1000,high,generic,approved,DEMO,虚构演示分类，仅用于验证计算
+B0DEMO0002,US,YOGA-MATS,2026-10,xiyou,monthly_search_volume,yoga mat,1000,high,generic,approved,DEMO,虚构演示分类，仅用于验证计算
+B0DEMO0002,US,YOGA-MATS,2026-10,xiyou,monthly_search_volume,non slip yoga mat,3000,high,generic,approved,DEMO,虚构演示分类，仅用于验证计算
+B0DEMO0003,US,YOGA-MATS,2026-10,xiyou,monthly_search_volume,thick yoga mat,8000,high,generic,approved,DEMO,虚构演示分类，仅用于验证计算
+B0DEMO0003,US,YOGA-MATS,2026-10,xiyou,monthly_search_volume,exercise mat,5000,medium,generic,approved,DEMO,虚构演示分类，仅用于验证计算
+B0DEMO0001,US,YOGA-MATS,2026-10,xiyou,monthly_search_volume,yoga bag,10000,low,generic,approved,DEMO,虚构演示分类，仅用于验证计算

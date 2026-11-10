@@ -1,0 +1,27 @@
+{
+  "version": "1.0.0",
+  "baseline_method": "arithmetic_mean_high_relevance_unique_keywords",
+  "target_asin_count": 20,
+  "minimum_root_frequency": null,
+  "token_map": {},
+  "protect_roots": [],
+  "stopwords": [
+    "a",
+    "an",
+    "the",
+    "for",
+    "and",
+    "or",
+    "with",
+    "of",
+    "to",
+    "in",
+    "on",
+    "by",
+    "from",
+    "at",
+    "is",
+    "are"
+  ],
+  "note": "not/non/no不作为停用词；不默认合并单复数；覆盖阈值未设置，排序后审核。"
+}
