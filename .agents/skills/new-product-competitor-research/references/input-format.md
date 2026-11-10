@@ -1,0 +1,11 @@
+# 输入字段及审核约定
+
+product.json：product_id是内部产品编号；site、category_id为本批次唯一站点和品类；currency为币种；facts每条包含attribute/value/source（来源文件及页行）；exclusions记录不适用项；unknowns记录未知项。
+keyword_period是统一流量词统计周期标签，例如2026-10；keyword_source为xiyou或实际来源；keyword_metric为明确指标，例如monthly_search_volume。keyword_language当前只能en。
+sales_period是销量周期；sales_scope仅child（子体）或parent（父体），全批次必须一致；sales_source同来源。两个周期可不同，但须明确留痕。
+
+seeds.csv：seed_id唯一；seed_type为keyword/asin；value为原线索；relevance为high/medium/low/pending；review_status为approved/pending；evidence为相关性依据，reviewer为审核人。仅approved+high可作有效来源。
+
+candidates.csv：ASIN和parent_asin为10位商品码；站点和category_id与产品一致。title/price/currency记录竞品快照；sales为非负整数销量，不接受100K等缩写；sales_is_estimate为yes/no/unknown。relevance和review_status同种子。critical_conflict为yes/no/unknown，只有no能入选。discovery_type为keyword_result或seed_asin；seed_refs用|连接有效seed_id。evidence应指向具体产品匹配及关键词结果证据，不只写“相似”。
+
+输入格式可CSV UTF-8或xlsx第一张表；列名使用模板原名，不自动猜测西柚版本字段。原始导出留存，先经人工映射。空白销量进入待审，负数/非数报错。重复ASIN先合并来源再运行。种子覆盖可在人工审核表计算，脚本不会据此制造未知排名。

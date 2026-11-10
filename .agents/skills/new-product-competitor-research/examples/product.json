@@ -1,0 +1,32 @@
+{
+  "product_id": "DEMO-YOGA",
+  "site": "US",
+  "category_id": "YOGA-MATS",
+  "category_name": "瑜伽垫",
+  "keyword_language": "en",
+  "currency": "USD",
+  "keyword_period": "2026-10",
+  "keyword_source": "xiyou",
+  "keyword_metric": "monthly_search_volume",
+  "sales_period": "2026-10",
+  "sales_scope": "child",
+  "sales_source": "xiyou",
+  "facts": [
+    {
+      "attribute": "product_type",
+      "value": "yoga mat",
+      "source": "演示说明书第1页"
+    },
+    {
+      "attribute": "feature",
+      "value": "non slip",
+      "source": "演示规格表第2行"
+    }
+  ],
+  "exclusions": [
+    "不属于收纳包或清洁用品"
+  ],
+  "unknowns": [
+    "真实尺寸待填写"
+  ]
+}

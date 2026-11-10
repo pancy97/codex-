@@ -1,0 +1,4 @@
+﻿asin,parent_asin,site,category_id,title,price,currency,sales,sales_period,sales_scope,sales_source,sales_is_estimate,relevance,review_status,reviewer,evidence,critical_conflict,discovery_type,seed_refs
+B0DEMO0001,B0PARENT01,US,YOGA-MATS,DEMO yoga mat,19.99,USD,300,2026-10,child,xiyou,yes,high,approved,DEMO,虚构演示：产品功能相符,no,keyword_result,S1
+B0DEMO0002,B0PARENT02,US,YOGA-MATS,DEMO yoga mat,19.99,USD,200,2026-10,child,xiyou,yes,high,approved,DEMO,虚构演示：产品功能相符,no,keyword_result,S1
+B0DEMO0003,B0PARENT03,US,YOGA-MATS,DEMO yoga mat,19.99,USD,100,2026-10,child,xiyou,yes,high,approved,DEMO,虚构演示：产品功能相符,no,keyword_result,S1
